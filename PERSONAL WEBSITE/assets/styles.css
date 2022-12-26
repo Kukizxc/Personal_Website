@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(153deg, #0000004a, #2674ad42);
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 54px 0px 27px;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 70%;
+    transition: 500ms;
+}
+.logo:hover{
+    opacity: 100%;
+}
+.navlinks {
+    list-style: none;    
+}
+
+.navlinks li, a {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    transition: all 500ms;
+    font-weight: 1000;
+}
+
+.navlinks li, a:hover {
+    color: #000000;
+    transform: scale(1.05);
+    opacity: 1.01;
+}
+.minilogs {
+    padding: 0px 0px 0px 10px;
+}
+body{
+    background: url(/assets/backgrounds/11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    text-align: center;
+    padding-top: 5%;
+}
+.container h1 {
+    color: white;
+    transition: all 500ms ease;
+    font-size: 75px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.container h1:hover{
+    color: black;
+}
+
+.container h2 {
+    padding-top: 1%;
+    transition: all 500ms ease;
+    padding-bottom: 5%;
+    color: black;
+}
+
+.container img {
+    border-radius: 50%;
+    transition: all 500ms ease;
+    cursor: crosshair;
+}
+.container img:hover {
+    background: #000000a6;
+    transform: scale(1.05);
+}
